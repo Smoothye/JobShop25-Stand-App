@@ -1,0 +1,18 @@
+.modal-content{
+    /* background-image: url("../images/holografic-background.jpg"); */
+    background-color: var(--color-blue);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    color: var(--color-white);
+    overflow: hidden;
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.error-message{
+    color: red;
+    display: none;
+}

@@ -1,0 +1,56 @@
+.flipped-map{
+    display: none;
+    width: auto;
+    padding: 0;
+    /* background-image: linear-gradient(#491375, var(--depressing-purple)); */
+    background-color: var(--color-gray);
+    border-radius: 0.375rem;
+}
+
+.flipped-field{
+    height: 600px;
+    width: 350px;
+    background-color: var(--color-white);
+    border-radius: 180px 0 0 180px;
+    color: var(--color-gray);
+    writing-mode:vertical-rl;
+    text-orientation: mixed;
+}
+
+.flipped-food-table{
+    height: 50px;
+    width: 150px;
+    background-color: var(--color-red);
+    color: var(--color-white);
+    pointer-events: none;
+}
+
+.flipped-logistics-table{
+    height: 100px;
+    width: 50px;
+    pointer-events: none;
+    background-color: var(--color-red);
+    color: var(--color-white);
+    writing-mode:vertical-rl;
+    text-orientation: mixed;
+}
+
+.flipped-entrance{
+    background-color: var(--color-white);
+    width: 50px;
+    height: 90px;
+    border-radius: 0 0.375rem 0.375rem 0;
+    writing-mode:vertical-rl;
+    text-orientation: mixed;
+}
+
+.flipped-offset-table{
+    height: 50px;
+    width: 10px;
+}
+
+@media (min-width: 576px){
+    .flipped-map {
+    max-width: 1200px !important;
+    }
+}
